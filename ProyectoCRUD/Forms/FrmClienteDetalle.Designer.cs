@@ -1,4 +1,4 @@
-﻿namespace ProyectoPrueba2
+﻿namespace ProyectoCRUD
 {
     partial class FrmClienteDetalle
     {
@@ -347,7 +347,7 @@
             Controls.Add(lblGrupo);
             Margin = new Padding(3, 4, 3, 4);
             Name = "FrmClienteDetalle";
-            Text = "                      ";
+            Text = " Detalle Cliente              ";
             Load += FrmClienteDetalle_Load;
             ResumeLayout(false);
             PerformLayout();

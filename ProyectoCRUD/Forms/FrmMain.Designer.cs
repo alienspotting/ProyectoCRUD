@@ -1,4 +1,4 @@
-﻿namespace ProyectoPrueba2
+﻿namespace ProyectoCRUD
 {
     partial class FrmMain
     {
@@ -37,10 +37,12 @@
             // 
             // menuStrip1
             // 
+            menuStrip1.ImageScalingSize = new Size(20, 20);
             menuStrip1.Items.AddRange(new ToolStripItem[] { clientesToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 24);
+            menuStrip1.Padding = new Padding(7, 3, 0, 3);
+            menuStrip1.Size = new Size(914, 30);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -48,34 +50,36 @@
             // 
             clientesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { listadoToolStripMenuItem });
             clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            clientesToolStripMenuItem.Size = new Size(61, 20);
+            clientesToolStripMenuItem.Size = new Size(75, 24);
             clientesToolStripMenuItem.Text = "Clientes";
             // 
             // listadoToolStripMenuItem
             // 
             listadoToolStripMenuItem.Name = "listadoToolStripMenuItem";
-            listadoToolStripMenuItem.Size = new Size(180, 22);
+            listadoToolStripMenuItem.Size = new Size(140, 26);
             listadoToolStripMenuItem.Text = "Listado";
-            listadoToolStripMenuItem.Click += this.listadoToolStripMenuItem_Click;
+            listadoToolStripMenuItem.Click += listadoToolStripMenuItem_Click;
             // 
             // panelContenedor
             // 
             panelContenedor.Dock = DockStyle.Fill;
-            panelContenedor.Location = new Point(0, 24);
+            panelContenedor.Location = new Point(0, 30);
+            panelContenedor.Margin = new Padding(3, 4, 3, 4);
             panelContenedor.Name = "panelContenedor";
-            panelContenedor.Size = new Size(800, 426);
+            panelContenedor.Size = new Size(914, 570);
             panelContenedor.TabIndex = 1;
             // 
-            // FormMain
+            // FrmMain
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(panelContenedor);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
-            Name = "FormMain";
-            Text = "Form2";
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "FrmMain";
+            Text = "General";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);

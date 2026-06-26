@@ -1,4 +1,4 @@
-﻿namespace ProyectoPrueba2
+﻿namespace ProyectoCRUD
 {
     partial class FrmPantallaBienvenida
     {
@@ -40,10 +40,10 @@
             // 
             bienvenido.AutoSize = true;
             bienvenido.Dock = DockStyle.Fill;
-            bienvenido.Font = new Font("Bauhaus 93", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            bienvenido.Location = new Point(94, 28);
+            bienvenido.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            bienvenido.Location = new Point(107, 38);
             bienvenido.Name = "bienvenido";
-            bienvenido.Size = new Size(267, 50);
+            bienvenido.Size = new Size(306, 67);
             bienvenido.TabIndex = 1;
             bienvenido.Text = "¡Bienvenido!";
             bienvenido.TextAlign = ContentAlignment.MiddleCenter;
@@ -53,8 +53,9 @@
             panel1.Controls.Add(tableLayoutPanel1);
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(456, 270);
+            panel1.Size = new Size(521, 360);
             panel1.TabIndex = 2;
             // 
             // tableLayoutPanel1
@@ -68,13 +69,14 @@
             tableLayoutPanel1.Controls.Add(bienvenido, 1, 1);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 0);
+            tableLayoutPanel1.Margin = new Padding(3, 4, 3, 4);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 4;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 15.12605F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 26.7782421F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 58.1589966F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 80F));
-            tableLayoutPanel1.Size = new Size(456, 270);
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 107F));
+            tableLayoutPanel1.Size = new Size(521, 360);
             tableLayoutPanel1.TabIndex = 2;
             // 
             // btnIniciar
@@ -82,22 +84,24 @@
             btnIniciar.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             btnIniciar.BackColor = Color.FromArgb(192, 192, 255);
             btnIniciar.BackgroundImageLayout = ImageLayout.Center;
-            btnIniciar.Location = new Point(94, 81);
+            btnIniciar.Location = new Point(107, 109);
+            btnIniciar.Margin = new Padding(3, 4, 3, 4);
             btnIniciar.Name = "btnIniciar";
-            btnIniciar.Size = new Size(267, 104);
+            btnIniciar.Size = new Size(306, 139);
             btnIniciar.TabIndex = 1;
             btnIniciar.Text = "INICIAR";
             btnIniciar.UseVisualStyleBackColor = false;
             btnIniciar.Click += btnIniciar_Click_1;
             // 
-            // FormInicio
+            // FrmPantallaBienvenida
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(456, 270);
+            ClientSize = new Size(521, 360);
             Controls.Add(panel1);
-            Name = "FormInicio";
-            Text = "Form2";
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "FrmPantallaBienvenida";
+            Text = "Bienvenida";
             panel1.ResumeLayout(false);
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();

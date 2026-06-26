@@ -1,4 +1,4 @@
-namespace ProyectoPrueba2
+namespace ProyectoCRUD
 {
     internal static class Program
     {

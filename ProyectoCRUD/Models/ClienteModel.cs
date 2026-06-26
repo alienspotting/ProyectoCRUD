@@ -4,8 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProyectoPrueba2.Models
+namespace ProyectoCRUD.Models
 {
+
+    /// <summary>
+    /// Representa un cliente de la aplicación.
+    /// Contiene los datos básicos de identificación y contacto.
+    /// </summary>
     internal class ClienteModel
     {      
 
