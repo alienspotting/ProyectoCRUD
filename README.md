@@ -32,6 +32,8 @@ Desarrollado por María Visús en paralelo a la realización de prácticas de 1�
 
 ---------
 
+# English version
+
 Desktop application developed in C# WinForms with SQL Server access.  
 This project implements a full CRUD system based on stored procedures in SQL Server.  
 It was inspired by the development practices and technologies used during my 1st year DAW internship.
