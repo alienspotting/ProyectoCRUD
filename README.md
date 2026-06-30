@@ -25,6 +25,25 @@ Un proyecto muy interesante, puesto que me permitió integrar los conocimientos 
 
 El proyecto incluye scripts SQL para la creación de la base de datos, así como las tablas, inserción de datos de prueba, y los procedimientos almacenados necesarios para el uso de la aplicación.
 
+## Screenshots
+### Menú principal
+![Menú principal](Screenshots/01_Main_form.png)
+
+### Filtro por nombre
+![Filtro por nombre](Screenshots/02_Name_Filter.png)
+
+### Formulario de detalle cliente
+![Formulario de detalle cliente](Screenshots/03_Customer_Detail_Form.png)
+
+### Modo editar (para actualización de datos de cliente)
+![Modo editar](Screenshots/04_Customer_Update_Test.png)
+
+### Formulario de nuevo cliente
+![Nuevo cliente](Screenshots/05_New_Customer_Form.png)
+
+### Auto-Scroll al cliente guardado
+![Auto scroll](Screenshots/06_Auto_Scroll_To_Saved_Customer.png)
+
 ## Autor
 Desarrollado por María Visús en paralelo a la realización de prácticas de 1º de DAW.
 
