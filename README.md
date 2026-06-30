@@ -27,7 +27,7 @@ El proyecto incluye scripts SQL para la creación de la base de datos, así como
 
 ## Screenshots
 ### Menú principal
-![Menú principal](Screenshots/01_Main_form.png)
+![Menú principal](Screenshots/01_Main_Form.png)
 
 ### Filtro por nombre
 ![Filtro por nombre](Screenshots/02_Name_Filter.png)
